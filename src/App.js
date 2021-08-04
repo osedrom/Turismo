@@ -20,52 +20,53 @@ import Sign  from './Componentes/navbar/pages/Sign';
 class App extends Component {
   render() {
     return (
-      <Router>
+      
+     
        <main>
       
        <NavBar />
        
      
-      <Switch>
-       <Route path="/Home">
-       <Home />
-       </Route>
-     </Switch>
-
-     <Switch>
-       <Route path="/Services">
-       <Services />
-       </Route>
-     </Switch>
-     
-     <Switch>
-       <Route path="/Transfer">
-       <Transfer />
-       </Route>
-     </Switch>
-     
-     <Switch>
-       <Route path="/Contact">
-       <Contact />
-       </Route>
-     </Switch>
-     
-     <Switch>
-       <Route path="/Sign up">
-       <Sign up />
-       </Route>
-     </Switch>
-     <Switch>
-       <Route path="/">
       
-       </Route>
-     </Switch>
+       
+       <Home />
+       
+     
+
+     
+       
+       <Services />
+      
+     
+     
+     
+       
+       <Transfer />
+      
+    
+     
+     
+       
+       <Contact />
+      
+    
+     
+     
+       
+       <Sign up />
+      
+    
+     
+       
+      
+      
+     
      
      < TourList />
      <Footer />
      </main>
      
-     </Router> 
+    
     )
   
 }
